@@ -1,11 +1,10 @@
 import React from 'react';
-import Chart from './components/resultsGraph';
+import Container from './components/resultsContainer'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <Chart city='Houston' />
+      <Container />
     </div>
   );
 }
